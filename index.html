@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#">
+                    <img class="logo" src="./img/logo-w 1.svg" alt="">
+                </a>
+                
+                <div class="navbar__collapse">
+                    <ul class="navbar__menu">
+                        <li class="navbar__item">Главная</li>
+                        <li class="navbar__item">Документация</li>
+                        <li class="navbar__item">Добавить</li>
+                    </ul>
+                    <input class="navbar__input" type="search" placeholder="Поиск">
+                    <p class="githup">GitHup</p>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-js">
+                <h1 class="title">JavaScript</h1>
+                <button class="btn-more"><a href="https://developer.mozilla.org/ru/docs/Web/JavaScript">Перейти к документакции</a></button>
+                <button class="btn-add">+ Добавить тему</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="div-for-append">
+
+            </div>
+            <div class="div-for-btns">
+                <button class="previous-btn">Prev</button>
+                <button class="next-btn">Next</button>
+            </div>
+        </div>
+    </section>
+    
+    <div class="main-modal">
+        <div class="close">
+            <button class="close_btn">X</button>
+        </div>
+        <div class="inner-modal">
+            <input type="text" class="modal_inp-name">
+            <input type="text" class="modal_inp-descript">
+            <button class="add">Добавить</button>
+        </div>
+    </div>
+
+    <div class="modal-for-edit">
+        <div class="close-close">
+            <button class="edit-for-btn">X</button>
+        </div>
+        <div class="inner-modal-edit">
+            <input type="text" class="modal_edit-name">
+            <input type="text" class="modal_edit-descript">
+            <button class="save">Сохранить</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

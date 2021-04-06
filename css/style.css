@@ -1,0 +1,156 @@
+body{
+    background-color: whitesmoke;
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: Arial;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;  
+}
+.logo{
+    width: 83px;
+    height: 23px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+    
+.navbar__menu{
+    list-style-type: none;
+    display: flex;
+    margin-left: 30px;
+}
+.navbar__collapse{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+
+}
+.navbar__item{
+    color: white;
+    margin: 10px 20px;
+    font-size: large;
+
+}
+.navbar__input{
+    background-color: #FFE600;
+    height: 25px;
+    width: 146px;
+    border-radius: 60px;
+    margin-top: 23px;
+}
+.githup{
+    color: white;
+    font-size: large;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.section-js{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    color: black;
+    font-size: 120px;
+}
+.btn-more{
+    height: 40px;
+    width: 400px;
+    border-radius: 20px;
+    border-color:  #FFE600;
+}
+.btn-add{
+    margin-top: 50px;
+    border-radius: 20px;
+    border-color: #FFE600;
+}
+.div-for-btns{
+    display: flex;
+    justify-content: center;
+}
+.previous-btn{
+    border-radius: 20px;
+    border-color: #FFE600;
+}
+.next-btn{
+    border-radius: 20px;
+    border-color: #FFE600;
+}
+
+
+
+.main-modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);  
+    display: none; 
+    text-align: center;
+}
+
+.inner-modal{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.close{
+    text-align: end;
+}
+
+.modal-for-edit{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);  
+    display: none; 
+    text-align: center;
+}
+
+.inner-modal-edit{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.close-close{
+    text-align: end;
+}
+
+
+.div-for-append{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.styleOfElem{
+    color: #FFE600;
+    background-color: black;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 25px;
+    margin: 10px;
+    
+}

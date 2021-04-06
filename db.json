@@ -1,0 +1,40 @@
+{
+  "themes": [
+    {
+      "theme": "HTML",
+      "id": 1
+    },
+    {
+      "theme": "CSS",
+      "id": 2
+    },
+    {
+      "theme": "BootStrap",
+      "id": 3
+    },
+    {
+      "theme": "Основы JS",
+      "id": 4
+    },
+    {
+      "theme": "Native JS",
+      "id": 5
+    },
+    {
+      "theme": "DOM",
+      "id": 6
+    },
+    {
+      "theme": "React",
+      "id": 7
+    },
+    {
+      "theme": "React Hooks",
+      "id": 8
+    },
+    {
+      "theme": "JQuery",
+      "id": 9
+    }
+  ]
+}

@@ -1,10 +1,6 @@
 {
   "themes": [
     {
-      "theme": "HTML",
-      "id": 1
-    },
-    {
       "theme": "CSS",
       "id": 2
     },
@@ -35,6 +31,10 @@
     {
       "theme": "JQuery",
       "id": 9
+    },
+    {
+      "theme": "HTML",
+      "id": 10
     }
   ]
 }

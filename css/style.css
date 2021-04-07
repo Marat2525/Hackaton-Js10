@@ -77,10 +77,12 @@ body{
 .previous-btn{
     border-radius: 20px;
     border-color: #FFE600;
+    margin:  auto 100px;
 }
 .next-btn{
     border-radius: 20px;
     border-color: #FFE600;
+    margin:  auto 100px;
 }
 
 
@@ -104,7 +106,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 350px;
 }
 
 .close{
@@ -130,27 +132,32 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 350px;
 }
 
 .close-close{
     text-align: end;
 }
 
-
 .div-for-append{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
+
 .styleOfElem{
     color: #FFE600;
     background-color: black;
     height: 100px;
     width: 200px;
     text-align: center;
-    font-size: 45px;
+    font-size: 30px;
     border-radius: 25px;
     margin: 10px;
     
+}
+.footer_last{
+    background-color: #20232A;
+    height: 1000px;
 }

@@ -1,40 +1,19 @@
 {
   "themes": [
     {
+      "theme": "HTML",
+      "link": "https://developer.mozilla.org/ru/docs/Web/HTML",
+      "id": 1
+    },
+    {
       "theme": "CSS",
+      "link": "https://developer.mozilla.org/ru/docs/Web/CSS/Reference",
       "id": 2
     },
     {
-      "theme": "BootStrap",
-      "id": 3
-    },
-    {
-      "theme": "Основы JS",
-      "id": 4
-    },
-    {
-      "theme": "Native JS",
-      "id": 5
-    },
-    {
       "theme": "DOM",
-      "id": 6
-    },
-    {
-      "theme": "React",
-      "id": 7
-    },
-    {
-      "theme": "React Hooks",
-      "id": 8
-    },
-    {
-      "theme": "JQuery",
-      "id": 9
-    },
-    {
-      "theme": "HTML",
-      "id": 10
+      "link": "https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model",
+      "id": 5
     }
   ]
 }
